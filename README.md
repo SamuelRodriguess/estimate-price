@@ -1,6 +1,7 @@
 # lowest-price
 
-### Algoritmo que busca encontrar a combinação com menor número de dinheiro. 
+### Consiste em encontrar a combinação com menor número de dinheiro. 
+#### Abordagem gananciosa (greedy algorithm) ou algoritmo guloso.
 
 Execute os comandos abaixo:
 
