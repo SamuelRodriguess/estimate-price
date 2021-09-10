@@ -1,8 +1,7 @@
 int size = 0;
 
-struct no
-{
-    int data;
+struct no {
+    float data;
     struct no *next;
 };
 typedef struct no Fila;
