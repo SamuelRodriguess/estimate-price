@@ -14,9 +14,6 @@ void main(){
         case 1:
             printf("\nDigite o valor R$: ");
             scanf("%f", &price);
-
-            printf("%g", price);
-
             calculate(price);
             system("clear");
             break;
