@@ -1,6 +1,6 @@
 # lowest-price
 
-## Algoritmo que busca encontrar a combinação com menor número de dinheiro. 
+### Algoritmo que busca encontrar a combinação com menor número de dinheiro. 
 
 Execute os comandos abaixo:
 
