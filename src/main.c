@@ -5,24 +5,23 @@
 #include "components/menu/options.c"
 #include "components/price/show.c"
 
-void main()
-{
+void main(){
     int opt;
     float price = 0;
-    do
-    {
+    do{
         opt = options();
-        switch (opt)
-        {
+        switch (opt){
         case 1:
             printf("\nDigite o valor R$: ");
             scanf("%f", &price);
+
+            printf("%g", price);
+
             calculate(price);
             system("clear");
             break;
         case 2:
-            if (price == 0)
-            {
+            if (price == 0){
                 printf("\tadicione um valor!\n");
                 break;
             }

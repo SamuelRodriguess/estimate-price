@@ -1,19 +1,14 @@
-void show()
-{
+void show(){
     struct no *auxiliary;
 
-    if (initial == NULL)
-    {
+    if (initial == NULL){
         printf("\tERRO: Fila vazia");
         return;
     }
-
     auxiliary = initial;
-
-    while (auxiliary != NULL)
-    {
+    while (auxiliary != NULL){
         printf("\nR$:");
-        printf("%d", auxiliary->data);
+        printf("%g", auxiliary->data);
         auxiliary = auxiliary->next;
     }
 }

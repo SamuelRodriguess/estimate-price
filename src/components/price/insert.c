@@ -1,12 +1,10 @@
-int insert(int value)
-{
+int insert(float value){
     Fila *auxiliary;
 
     auxiliary = (Fila *)malloc(sizeof(struct no));
     auxiliary->data = value;
 
-    if (size == 0)
-    {
+    if (size == 0){
         initial = auxiliary;
         final = auxiliary;
     }
